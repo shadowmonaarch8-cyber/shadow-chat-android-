@@ -1,0 +1,17 @@
+{
+  "name": "shadow-chat-android",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SHADOW CHAT Android wrapper",
+  "scripts": {
+    "android:add": "cap add android",
+    "android:sync": "cap sync android"
+  },
+  "dependencies": {
+    "@capacitor/core": "^8.5.3",
+    "@capacitor/android": "^8.5.3"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.5.3"
+  }
+}
